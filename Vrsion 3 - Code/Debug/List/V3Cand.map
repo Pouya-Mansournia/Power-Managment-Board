@@ -1,0 +1,41 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+rx_buffer                                                                         0x0160      64
+tx_buffer                                                                         0x01A0      64
+tx_wr_index                                                                       0x01E0       1
+tx_rd_index                                                                       0x01E1       1
+tx_counter                                                                        0x01E2       1
+adc_data                                                                          0x01E3       1
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+C1                                                                                R4,R5        2
+C2                                                                                R6,R7        2
+Lm                                                                                R8,R9        2
+E                                                                                 R11          1
+rx_wr_index                                                                       R10          1
+rx_rd_index                                                                       R13          1
+rx_counter                                                                        R12          1
+rx_buffer_overflow                                                                R2.0      1bit
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+usart_rx_isr                                                                      0x0005A     34
+getchar                                                                           0x0007C     19
+usart_tx_isr                                                                      0x0008F     33
+putchar                                                                           0x000B0     35
+adc_isr                                                                           0x000D3      6
+read_adc                                                                          0x000D9     18
+main                                                                              0x000EB    136
+put_usart_G100                                                                    0x00173     12
+_print_G100                                                                       0x0017F    279
+printf                                                                            0x00296     32
+strlen                                                                            0x002B6     11
+strlenf                                                                           0x002C1     12
