@@ -1,1 +1,5 @@
 # Power-Managment-Board
+Designed to cater to the diverse energy needs of your robot, the Power Management Board stands as a pinnacle of innovation and utility. With an input of 24 volts, it efficiently channels power to offer 5, 3.3, and 12-volt outputs, empowering your robot's various devices with the energy they require.
+Control takes center stage as a microcontroller orchestrates the relay switches, granting you precision control over each section's power supply. Seamlessly toggle on and off, your robot's components can now dance to the tune of your commands.
+But it doesn't stop there. The Power Management Board provides insights into your robot's power dynamics. It reads the currents coursing through the motors, ensuring you're always in the know about their operational status.
+Stepping into the future, this board is the life force behind the MRL@WORK team's robotics endeavors. Designed to empower, optimize, and streamline, it exemplifies engineering excellence, fueling the potential of robotic systems to new heights.
